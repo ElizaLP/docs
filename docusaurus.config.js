@@ -71,13 +71,21 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'sidebar',
             position: 'left',
-            label: 'Train',
+            label: 'Dev Place',
           },
         ],
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      footer: {
+        style: 'dark',
+        links: [], // keep it empty if you don't want links
+        copyright: `
+          <strong>⚠️ Warning:</strong> This site is for internal use only. Do <strong>NOT</strong> share outside the development team.<br/>
+          © ${new Date().getFullYear()} ELP. Not affiliated with any real life company.
+        `,
       },
     }),
 };

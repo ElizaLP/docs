@@ -1,0 +1,1 @@
+The documentation for this code base is **not** split into the same manor as the code base itself. They are **different**, and this documentation is purely here to act as a wayfinder for our own methods.
